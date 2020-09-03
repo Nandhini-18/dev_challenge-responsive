@@ -1,0 +1,142 @@
+body {
+  padding: 0;
+  margin-left: 150px;
+  margin-right: 150px;
+  max-width: 1200px;
+  margin: 0px auto;
+  margin-top: 18px;
+}
+
+.subject {
+  margin: 20px;
+}
+
+.not-found {
+  display: flex;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+}
+
+.container {
+  padding-left: 46px;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  line-height: 80px;
+  font-style: italic;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 25px;
+  line-height: 50px;
+}
+
+.button {
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  text-decoration: none;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
+
+}
+
+@media screen and (max-width: 992px) {
+  .not-found {
+    width: auto;
+    display: block;
+  }
+
+  .image {
+    width: auto;
+  }
+
+  .container {
+    width: auto;
+    padding-left: 0;
+  }
+
+  body {
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
+    margin: 0;
+  }
+
+  .button {
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    padding: 23px 39px;
+    text-align: center;
+    display: inline-block;
+    font-size: 23px;
+    cursor: pointer;
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+  body {
+    margin-top: 36px;
+    font-size: 28px;
+  }
+
+  .container {
+    width: auto;
+    padding-left: 61px;
+    margin-top: 72px;
+  }
+
+  .button {
+    margin-top: 59px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    text-decoration: none;
+    padding: 34px;
+    text-align: center;
+    display: inline-block;
+    font-size: 19px;
+    cursor: pointer;
+  }
+
+  .footer {
+    margin-top: 180px;
+    padding-left: 90px;
+  }
+
+  .not-found {
+    width: auto;
+    display: block;
+  }
+
+  .image {
+    width: auto;
+  }
+
+}
