@@ -99,3 +99,127 @@ h4{
    margin-bottom: 10px;
    margin-top:80PX ;
 }
+
+
+@media screen and (max-width:768px) {
+    body{
+        margin-left: 33px;
+        padding: 0;
+    }
+    img{
+        width: 65%;
+    }
+    .about-us {
+        margin: 25px 0 25px 0;
+    }
+    
+    .main-heading {
+        font-size: 14px;
+        margin: 50px 0 50px 50px;
+    }
+    
+    .second-heading {
+        padding-left: 0;
+    }
+    
+    .second-heading p {
+        margin-top: 10px;
+    }
+    
+    .second-heading h3 {
+        margin-top: 28px;
+    }
+    .list-1 h2,.list-3 h2, .list-4 h2, .list-5 h2, .list-6 h2 {
+        top: 0;
+        left: 185px;
+        font-size: 14px;
+    }
+    .list-2 {
+        margin: 45px 0 0 0;
+        padding: 5px 0 0 0;
+    }
+    .list-2 h2{
+        top: 4px;
+        RIGHT: 0;
+        left: 185px;
+        font-size: 14px;
+    }
+    .list-5 {
+        margin: 45px 0 0 0;
+        padding: 5px 0 0 0;
+    }
+    .footer{
+        text-align: center;
+        margin-bottom: 0;
+        margin-top:20px;
+     }
+}
+@media screen and (max-width:385px) {
+    body{
+        width: auto;
+        margin-left: 25px;
+        padding: 0;
+        overflow:auto;
+    }
+    .about-us{
+        display: block;
+    }
+    .main-heading,.second-heading {
+     width:auto;
+     font-size: 14px;
+     margin: 0;
+    }
+    img{
+        width:75%;
+    }
+    .row-1,.row-2{
+        display: unset;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    .list-1{
+        position: relative;
+        width: 45%;
+    }
+    .list-1 h2,.list-2 h2,.list-3 h2,.list-4 h2,.list-5 h2,.list-6 h2{
+        top: 0;
+        left: 148px;
+        font-size: 10px;
+    }
+    .list-2{
+        position: absolute;
+        left: 199px;
+        top: 217px;
+        width: 45%;
+
+    }
+    .list-3{
+    position: absolute;
+    width: 45%;
+    }
+    .list-4{
+    position: relative;
+    width: 45%;
+    left: 183px;
+    top: 68px;
+    }
+
+    .list-5{
+    position: absolute;
+    width: 45%;
+    top: 621px;
+    }
+    .list-6 {
+    position: relative;
+    top: 61px;
+    width: 45%;
+    left: 183px;
+    }
+
+    .footer{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 14px;
+    }
+}
