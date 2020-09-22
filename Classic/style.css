@@ -415,3 +415,11 @@ a {
     width: 100%;
   }
 }
+@media only screen and (max-width: 1088px) {
+  .container-2 {
+    padding-left: 10px;
+  }
+  .warp-heading h1 {
+    font-size: 35px;
+  }
+}
