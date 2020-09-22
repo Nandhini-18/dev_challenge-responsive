@@ -385,7 +385,9 @@ a {
   img {
     width: 100%;
   }
-
+  .warp-heading h1 {
+    font-size: 28px;
+  }
   .warp-heading p {
     width: 80%;
   }
