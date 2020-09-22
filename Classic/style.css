@@ -1,0 +1,415 @@
+body {
+  margin: 10px 270px 0 270px;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  text-decoration-style: none;
+}
+
+.classic-recipe {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.warp-heading h1 {
+  padding-bottom: 15px;
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
+
+.warp-heading p {
+  width: 60%;
+  font-family: "Montserrat";
+  font-size: 18px;
+  color: #4f4f4f;
+  margin: 0;
+  padding-left: 20px;
+
+}
+img{
+  width: 100%;
+}
+
+.warp-container {
+  width: 75%;
+}
+.warp-image {
+  padding-bottom: 25px;
+}
+
+.container,
+.container-1 {
+  display: flex;
+}
+
+.container-2 {
+  padding-left: 95px;
+}
+
+.warp-ingredients h6,
+.cake h6 {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+  font-style: italic;
+  color: #333333;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.warp-ingredients {
+  width: 75%;
+  padding-bottom: 20px;
+}
+
+.warp-ingredients h2 {
+  font-family: "Montserrat", serif;
+  font-size: 24px;
+  color: #333333;
+  margin: 0;
+  padding: 0 0 20px 0;
+}
+
+.warp-container ul {
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.warp-container ul li {
+  display: flex;
+  width: 100%;
+  list-style-type: none;
+  
+}
+
+.warp-container ul p {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  color: #333333;
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.cake {
+  width: 80%;
+}
+
+.cake p {
+  font-family: "Montserrat", serif;
+  font-size: 18px;
+  color: #4f4f4f;
+  margin: 0;
+  padding-left: 20px;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+}
+
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol li {
+  display: flex;
+  text-align: justify;
+  position: relative;
+  counter-increment: inst;
+}
+
+ol li::before {
+  align-self: start;
+  content: counter(inst);
+  background: orange;
+  color: #fff;
+  font-weight: 20.5px;
+  font-size: 22px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 8px;
+  font-family: "Playfair Display", serif;
+}
+
+.timing {
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  border: white;
+  box-shadow: 0px 2px 0px #ddd8d8;
+}
+
+.warp-instructions {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.warp-instructions h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 24px;
+  margin: 0;
+  padding: 20px 0;
+  color: #333333;
+  font-weight: 400;
+}
+
+.warp-instructions p {
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-bottom: 25px;
+  color: #000000;
+}
+
+li {
+  display: flex;
+  list-style: none;
+}
+
+.warp- a {
+  text-decoration: none;
+  color: gray;
+  font-family: "Montserrat", serif;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 24px;
+}
+
+h4 {
+  font-family: "Montserrat", serif;
+  font-size: 10px;
+  margin: 0;
+  color: gray;
+}
+
+.yield,
+.preptime,
+.cookingtime,
+.totaltime {
+  padding: 15px;
+}
+
+.yield div,
+.preptime div,
+.cookingtime div,
+.totaltime div {
+  padding-left: 10px;
+}
+
+.orange {
+  color: #f2994a;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  color: #bdbdbd;
+  font-family: "Montserrat", serif;
+  font-style: italic;
+}
+
+.display-timing {
+  display: flex;
+}
+
+.footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #A9A9A9;
+  margin-top: 100px;
+  margin-left: 350px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 376px) {
+
+  body {
+    margin: 0px 20px;
+    padding: 0;
+  }
+  .classic-recipe {
+    padding-bottom: 20px;
+}
+
+  .warp-heading h1 {
+    font-size: 20px;
+  }
+
+  .classic {
+    padding: 0;
+  }
+
+  .warp-heading p {
+    width: 100%;
+  }
+
+  .warp-heading p {
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .warp-ingredients {
+    width: 100%;
+    font-weight: 400;
+  }
+  .warp-image {
+    padding-bottom: 0;
+}
+
+  .cake {
+    width: 100%;
+  }
+
+  .cake p {
+    font-size: 16px;
+    color: #4f4f4f;
+    margin: 0;
+    padding-left: 15px;
+  }
+
+  .warp-instructions {
+    width: 100%;
+    font-weight: 400;
+  }
+
+  .warp-ingredients h2 {
+    padding: 10px 0 10px 0;
+    font-size: 20px;
+  }
+
+  .warp-ingredients h6,
+  .cake h6 {
+    font-size: 15px;
+  }
+
+  ol li::before {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .warp-instructions h1 {
+    padding: 20px 0;
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .container,
+  .container-1 {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+  .classic {
+    display: flex;
+  }
+
+  .warp-container {
+    width: auto;
+  }
+
+  .preptime,
+  .cookingtime,
+  .totaltime {
+    display: flex;
+  }
+
+  .timing {
+    padding: 10px 0 20px;
+    border-radius: unset;
+    border: white;
+    box-shadow: unset;
+  }
+
+  .yield,
+  .preptime,
+  .cookingtime,
+  .totaltime {
+    padding: 12px 17px 8px 0;
+    font-size: 12px;
+  }
+  .warp-container ul li {
+    padding-bottom: 8px; 
+}
+  .container {
+    width: 100%;
+  }
+
+  .yield div,
+  .preptime div,
+  .cookingtime div,
+  .totaltime div {
+    padding-left: 5px;
+  }
+
+  a {
+    width: 100%;
+  }
+
+  .footer {
+    margin-left: 0;
+  }
+  .warp-instructions p {
+    padding-bottom: 15px;
+}
+a {
+  font-size: 15px;  
+}
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    width: 100%;
+  }
+
+  body {
+    margin: 0 30px;
+    padding: 0;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .warp-heading p {
+    width: 80%;
+  }
+
+  input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    border: 1px solid #828282;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .container-2 {
+    padding-left: 0;
+  }
+
+  .warp-source {
+    width: 100%;
+  }
+
+  a {
+    width: 100%;
+  }
+}
