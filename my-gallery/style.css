@@ -1,0 +1,204 @@
+body {
+    margin: 0 200px;
+    padding: 0;
+}
+
+.warp-profile {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+img {
+    border-radius: 60px;
+}
+
+.name img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: "montserrat";
+    font-size: 24px;
+    font-weight: 600;
+    color: #4E5150;
+    line-height: 29px;
+}
+
+.name {
+    padding-bottom: 30px;
+}
+
+.name p {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    font-size: 14px;
+    font-weight: 600;
+    color: #a9a9a9;
+    line-height: 17px;
+}
+
+.name h3,
+p {
+    text-align: center;
+}
+
+.follows {
+    display: flex;
+    justify-content: center;
+}
+
+.posts,
+.follower,
+.following {
+    background-color: #E5E5E5;
+    padding: 15px;
+    border-radius: 20px;
+    font-family: "montserrat";
+    line-height: 17px;
+    font-weight: 600;
+    color: #4E5150;
+    align-items: center;
+}
+
+.views {
+    padding-right: 20px;
+}
+
+.posts {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.follows p,
+span {
+    margin: 0;
+}
+
+.warp-gallery {
+    align-content: center;
+}
+
+.images {
+    display: flex;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+.photo-2 {
+    padding-left: 30px;
+}
+
+.small-container {
+    display: flex;
+    padding-top: 25px;
+}
+
+.photo-5,
+.Photo-6 {
+    padding-left: 20px;
+}
+
+.gallery-images {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 769px) {
+    body {
+        margin: 0 50px;
+        padding: 0;
+    }
+    .images.gallery-images {
+        justify-content:unset;
+    }
+    .warp-gallery img{
+        width: 100%;
+    }
+    .warp-gallery img {
+        border-radius: 40px;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+}
+@media only screen and (max-width: 1089px) {
+    body {
+        margin: 0 50px;
+        padding: 0;
+    }
+    .images.gallery-images {
+        justify-content:unset;
+    }
+    .warp-gallery img{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 376px) { 
+    body {
+    margin: 0 15px;
+    padding: 0;
+}
+h3{
+    font-size: 18px;
+}
+p{
+    font-size: 10px;
+}
+.name img {
+    width: 35%;
+    border-radius: 40px;
+}
+.warp-profile {
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.warp-gallery img{
+    width: 100%;
+}
+.images.gallery-images {
+    justify-content:unset;
+}
+.follows{
+    font-size: 11px;
+}
+.posts {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.images {
+    display: flex;
+    padding-bottom: 10px;
+}
+.warp-gallery img {
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+.photo-2 {
+    padding-left: 10px;
+}
+.photo-5, .Photo-6 {
+    padding-left: 10px;
+}
+.small-container {
+    padding-top: 0;
+}
+.footer {
+    padding-top: 30px;
+}
+}
