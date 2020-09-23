@@ -6,5 +6,6 @@
   <img src="My-team-page/Assest/team-work-mobile-size.png">
 <img src="Interior-consultant/Assest/devchallenges-desktop size.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-1.jpg">
+  <img src="Interior-consultant/Assest/devchallenges-mobile-size-2.jpg">
 </p>
 
