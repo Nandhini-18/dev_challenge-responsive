@@ -9,5 +9,6 @@
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-2.jpg">
   <img src="Classic/Assest/classic-desktop size.png">
   <img src="Classic/Assest/classic-mobile size.png">
+  <img src="my-gallery/assest/my-gallery-desktop-size.png">
 </p>
 
