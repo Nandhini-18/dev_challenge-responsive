@@ -10,5 +10,6 @@
   <img src="Classic/Assest/classic-desktop size.png">
   <img src="Classic/Assest/classic-mobile size.png">
   <img src="my-gallery/assest/my-gallery-desktop-size.png">
+  <img src="my-gallery/assest/my-gallery-mobile-size.png">
 </p>
 
