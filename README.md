@@ -7,6 +7,7 @@
 <img src="Interior-consultant/Assest/devchallenges-desktop size.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-1.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-2.jpg">
+  <img src="Classic/Assest/classic-desktop size.png">
   <img src="Classic/Assest/classic-mobile size.png">
 </p>
 
