@@ -1,13 +1,17 @@
 body {
-    margin: 0 200px;
+    margin: 0 60px;
     padding: 0;
+    max-width: 1400px;
 }
 
 .warp-profile {
     padding-top: 20px;
     padding-bottom: 40px;
 }
-
+.profile-pic{
+    text-align: center;
+    padding-bottom: 10px;
+}
 img {
     border-radius: 60px;
 }
@@ -99,7 +103,7 @@ span {
 }
 
 .photo-5,
-.Photo-6 {
+.photo-6 {
     padding-left: 20px;
 }
 
@@ -192,7 +196,7 @@ p{
 .photo-2 {
     padding-left: 10px;
 }
-.photo-5, .Photo-6 {
+.photo-5, .photo-6 {
     padding-left: 10px;
 }
 .small-container {
