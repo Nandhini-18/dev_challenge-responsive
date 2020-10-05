@@ -7,11 +7,13 @@ https://nandhini-classicrecipe.netlify.app/classic/
 https://nandhini-gallery.netlify.app/my-gallery/
 
 <p>
-<img src="404-not-found/assest/404-Website-Desktop-size- assest.jpg" >
+  ## 404 Page
+  <img src="404-not-found/assest/404-Website-Desktop-size- assest.jpg" >
   <img src ="404-not-found/assest/404-Website-mobile-size- assest.jpg">
+  ## My team page
   <img src="My-team-page/Assest/team-work-desktop-size.png">
   <img src="My-team-page/Assest/team-work-mobile-size.png">
-<img src="Interior-consultant/Assest/devchallenges-desktop size.jpg">
+  <img src="Interior-consultant/Assest/devchallenges-desktop size.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-1.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-2.jpg">
   <img src="Classic/Assest/classic-desktop size.png">
