@@ -6,13 +6,16 @@ https://nandhini-interior.netlify.app/interior-consultant/
 https://nandhini-classicrecipe.netlify.app/classic/   
 https://nandhini-gallery.netlify.app/my-gallery/
 
+## 404 Page
 <p>
-  ## 404 Page
   <img src="404-not-found/assest/404-Website-Desktop-size- assest.jpg" >
   <img src ="404-not-found/assest/404-Website-mobile-size- assest.jpg">
+</p>
   ## My team page
+  <p>
   <img src="My-team-page/Assest/team-work-desktop-size.png">
   <img src="My-team-page/Assest/team-work-mobile-size.png">
+</p>
   <img src="Interior-consultant/Assest/devchallenges-desktop size.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-1.jpg">
   <img src="Interior-consultant/Assest/devchallenges-mobile-size-2.jpg">
