@@ -5,6 +5,7 @@ https://nandhini-team.netlify.app/my-team-page/
 https://nandhini-interior.netlify.app/interior-consultant/   
 https://nandhini-classicrecipe.netlify.app/classic/   
 https://nandhini-gallery.netlify.app/my-gallery/
+https://nandhini-checkoutform.netlify.app/checkout-form/
 
 ## 404 Page
 <p>
