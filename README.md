@@ -37,4 +37,9 @@ https://nandhini-checkoutform.netlify.app/checkout-form/
   <img src="my-gallery/assest/my-gallery-desktop-size.png">
   <img src="my-gallery/assest/my-gallery-mobile-size.png">
 </p>
-
+## Checkout Page
+<p>
+  <img src ="checkout-form/Assest/desktop-size.png">
+  <img src ="checkout-form/Assest/mobile size 1.png">
+  <img src ="checkout-form/Assest/mobile size 2.png">
+</p>
