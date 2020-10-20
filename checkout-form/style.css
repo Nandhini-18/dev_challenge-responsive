@@ -4,7 +4,7 @@ body {
     background-color: none;
 }
 
-.header h1 {
+.heading h1 {
     margin: 0;
     padding: 30px 0;
 }
@@ -15,7 +15,7 @@ h2 {
     margin: 0;
 }
 
-.details h2 {
+.contact-details h2 {
     padding: 0px 0 20px 0;
     margin: 0;
 }
@@ -24,7 +24,6 @@ h1 {
     font-family: "montserrat";
     font-size: 36px;
     line-height: 44px;
-    width: 600;
     color: #4E5150;
 }
 
@@ -56,7 +55,6 @@ p {
     font-family: "montserrat";
     font-size: 12px;
     line-height: 15px;
-    width: 600;
     color: #4F4F4F;
     padding-bottom: 10px;
 
@@ -82,7 +80,7 @@ p {
     color: #4F4F4F;
 }
 
-.state input,
+
 .shipping-address input,
 .information input {
     width: 80%;
@@ -91,6 +89,10 @@ p {
     border: 2px solid #828282;
     border-radius: 18px;
     outline: 0;
+}
+
+.save input {
+    width: auto;
 }
 
 span {
@@ -104,6 +106,7 @@ s {
 }
 
 .state {
+    padding-top: 20px;
     display: flex;
 }
 
@@ -194,7 +197,7 @@ span.material-icons {
 }
 
 .save {
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .vintage-backbag,
@@ -216,7 +219,7 @@ span.material-icons {
 .products {
     background-color: #F2F2F2;
     width: 40%;
-    height: 550px;
+    max-height: 550px;
 }
 
 .products img {
@@ -325,7 +328,7 @@ a {
     }
 
     .continue {
-        width: 87%;
+        width: 86%;
     }
 }
 

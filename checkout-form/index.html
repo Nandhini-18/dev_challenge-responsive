@@ -16,16 +16,16 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="heading">
         <h1>Checkout</h1>
     </div>
-    <div class="ecommerce">
-        <div class="shipping">
-            <div class="information">
-                <div class="details">
-                    <h2>Contact information</h2>
-                </div>
-                <form method="GET">
+    <form method="POST">
+        <div class="ecommerce">
+            <div class="shipping">
+                <div class="information">
+                    <div class="contact-details">
+                        <h2>Contact information</h2>
+                    </div>
                     <div class="email">
                         <p>E-mail</p>
                         <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -36,14 +36,12 @@
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <input class="textbox" type="text" placeholder="Enter your phone..." />
                     </div>
-                </form>
-            </div>
-
-            <div class="shipping-address">
-                <div class="details">
-                    <h2>Shipping address</h2>
                 </div>
-                <form method="GET">
+                <div class="shipping-address">
+                    <div class="shipping-details">
+                        <h2>Shipping address</h2>
+                    </div>
+
                     <div class="full-name">
                         <p>Full name</p>
                         <i class="fa fa-user-circle" aria-hidden="true"></i>
@@ -59,75 +57,77 @@
                         <i class="fa fa-building" aria-hidden="true"></i>
                         <input class="textbox" type="text" placeholder="Your city.." />
                     </div>
-                </form>
+                    <div class="state">
+                        <div class="get">
+                            <p>Country</p>
+                            <div class="country">
+                                <i class="fa fa-globe" aria-hidden="true"></i>
+                                <input class="textbox" type="text" placeholder="Your country.." />
+                            </div>
+                        </div>
+                        <div class="code">
+                            <p>Postal code</p>
+                            <div class="postal-code">
+                                <span class="material-icons" color="black">
+                                    markunread_mailbox
+                                </span>
+                                <input class="textbox" type="text" placeholder="Your postal code.." />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="save">
+                        <input type="checkbox"> Save this information for next time
+                    </div>
+                    <div class="continue">
+                        <a class="#" href="index.html"> Continue</a>
+                    </div>
+                </div>
+
+
             </div>
 
-            <div class="state">
-                <div class="get">
-                    <p>Country</p>
-                    <div class="country">
-                        <i class="fa fa-globe" aria-hidden="true"></i>
-                        <input class="textbox" type="text" placeholder="Your country.." />
+            <div class="products">
+                <div class="vintage-backbag">
+                    <div>
+                        <img src="assest/photo1.png">
+                    </div>
+                    <div class="name">
+                        <h3>Vintage Backbag</h3>
+                        <span>$54.99<s>$94.99</s></span>
+                        <div class="number">
+                            <input type="number" value="1" min="1">
+                        </div>
                     </div>
                 </div>
-                <div class="code">
-                    <p>Postal code</p>
-                    <div class="postal-code">
-                        <span class="material-icons" color="black">
-                            markunread_mailbox
-                        </span>
-                        <input class="textbox" type="text" placeholder="Your postal code.." />
+                <div class="levi-shoes">
+                    <div>
+                        <img src="assest/photo2.png">
+                    </div>
+                    <div class="name">
+                        <h3>Levi Shoes</h3>
+                        <span>$74.99<s>$124.99</s></span>
+                        <div class="number">
+                            <input type="number" value="1" min="1">
+                        </div>
+                    </div>
+                </div>
+                <div class="value">
+                    <hr>
+                    <div class="shipping-value">
+                        <p>Shipping</p>
+                        <span>$19</span>
+
+                    </div>
+                    <hr>
+                    <div class="total-value">
+                        <p>Total</p>
+                        <span>$148.98</span>
                     </div>
                 </div>
             </div>
-            <div class="save">
-                <input type="checkbox"> Save this information for next time
-            </div>
-            <div class="continue">
-                <a class="#" href="index.html"> Continue</a>
-            </div>
+
         </div>
-
-        <div class="products">
-            <div class="vintage-backbag">
-                <div>
-                    <img src="assest/photo1.png">
-                </div>
-                <div class="name">
-                    <h3>Vintage Backbag</h3>
-                    <span>$54.99<s>$94.99</s></span>
-                    <div class="number">
-                        <input type="number" name="" id="" value="1" min="1">
-                    </div>
-                </div>
-            </div>
-            <div class="levi-shoes">
-                <div>
-                    <img src="assest/photo2.png">
-                </div>
-                <div class="name">
-                    <h3>Levi Shoes</h3>
-                    <span>$74.99<s>$124.99</s></span>
-                    <div class="number">
-                        <input type="number" name="" id="" value="1" min="1">
-                    </div>
-                </div>
-            </div>
-            <div class="value">
-                <hr>
-                <div class="shipping-value">
-                    <p>Shipping</p>
-                    <span>$19</span>
-
-                </div>
-                <hr>
-                <div class="total-value">
-                    <p>Total</p>
-                    <span>$148.98</span>
-                </div>
-            </div>
-        </div>
-    </div>
+    </form>
     </div>
     </div>
     <div class="footer">
