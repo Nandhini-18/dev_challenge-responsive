@@ -1,0 +1,1010 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.web-service {
+    padding: 20px 50px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: 'Heebo';
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 53px;
+    color: #333333;
+}
+
+.warp-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.warp-container a {
+    text-decoration: none;
+    padding-left: 50px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+    transition: 5ms;
+}
+
+.warp-container a:hover {
+    color: blue;
+
+}
+
+.toggle {
+    display: none;
+    padding-left: 40px;
+    padding-top: 7px;
+}
+
+.container {
+    padding: 100px 200px 50px 250px;
+}
+
+h3,
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 60%;
+    font-family: 'Poppins';
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: "Poppins";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #2D9CDB;
+}
+
+img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.container-2 {
+    padding: 0 150px;
+}
+
+.small-container {
+    padding: 46px 97px 5px 145px;
+}
+
+.small-container h1 {
+    width: 40%;
+    font-family: "poppins";
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.small-container p {
+    margin: 0;
+    width: 38%;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-family: "poppins";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.contact {
+    position: relative;
+    padding-left: 150px;
+}
+
+.contact input {
+    padding: 13px 19px 13px 20px;
+    width: 28%;
+    border: 2px solid #F2F2F2;
+    border-radius: 12px;
+    outline: 0;
+    background: #F2F2F2;
+    color: #BDBDBD;
+}
+
+.contact p {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    font-family: "poppins";
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.contact a {
+    position: absolute;
+    left: 420px;
+    top: 45px;
+    text-decoration: none;
+    background-color: #2D9CDB;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #F2F2F2;
+}
+
+.create img {
+    width: auto;
+    background: #2D9CDB;
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.design h1 {
+    font-family: 'poppins';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.design {
+    width: 90%;
+    padding: 0 50px;
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.design h1 {
+    width: auto;
+    padding: 20px 0;
+}
+
+.design p {
+    padding: 10px 40px 40px 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.create,
+.code,
+.storage {
+    padding: 45px 28px;
+    background: #FFFFFF;
+
+}
+
+.code img {
+    width: auto;
+    background: #27AE60;
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.storage img {
+    width: auto;
+    background: #EB5757;
+    border-radius: 16px;
+    padding: 10px 10px 10px 10px;
+}
+
+.column-1,
+.column-2,
+.column-3 {
+    padding-left: 2px;
+    transition: 5ms;
+    border-radius: 24px;
+
+}
+
+.column-1:hover {
+    box-shadow: 0px 20px 40px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.column-2:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.column-3:hover {
+    box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+    border-radius: 24px;
+}
+
+.service {
+    width: 45%;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+.service h1 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.design a {
+    padding: 10px;
+    text-decoration: none;
+    color: #828282;
+    background: #E0E0E0;
+    border-radius: 12px;
+    font-family: 'heebo';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+
+.column-2 a {
+    background: #2D9CDB;
+    color: #FFFFFF;
+
+}
+
+.business {
+    width: 50%;
+}
+
+.business h1 {
+    margin: 0;
+    font-family: 'heebo';
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+}
+
+.application,
+.system {
+    display: flex;
+}
+
+.application img,
+.system img {
+    width: auto;
+
+}
+
+.onboard,
+.juice {
+    padding-left: 35px;
+}
+
+.smart,
+.booking {
+    padding-top: 180px;
+}
+
+.application p,
+.system p {
+    font-family: 'poppins';
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    color: #828282;
+    margin: 0;
+    padding: 10px;
+}
+
+.application span,
+.system span {
+    margin: 0;
+    font-family: 'poppins';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333333;
+    padding: 10px;
+}
+
+.more {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.more a:hover {
+    color: crimson;
+}
+
+.more a {
+    padding-top: 7px;
+    text-decoration: none;
+    font-family: 'heebo';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #2d9cdb;
+}
+
+svg {
+    fill: #2D9CDB;
+}
+
+.team-persons {
+    display: flex;
+    padding-top: 200px;
+}
+
+.team {
+    width: 50%;
+}
+
+.team-image {
+    display: flex;
+}
+
+.photo-1 {
+    padding-top: 125px;
+}
+
+.persons {
+    padding-left: 20px;
+}
+
+.photo-2 {
+    padding-bottom: 20px;
+}
+
+.team {
+    width: 42%;
+    padding-top: 125px;
+}
+
+.team h3 {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins";
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #EB5757;
+}
+
+.team p {
+    margin: 0;
+    padding: 10px 155px 20px 0;
+    font-family: "poppins";
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.team h5 {
+    margin: 0;
+    padding: 0px 150px 0 0;
+    font-family: 'poppins';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #4f4f4f;
+}
+
+.philosophy {
+    width: 80%;
+    padding-top: 100px;
+}
+
+.philosophy h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins';
+    font-size: 36px;
+    line-height: 54px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.designer {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.designer-image img {
+    width: auto;
+}
+
+.designer-details h3 {
+    font-family: 'poppins';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #333333;
+}
+
+.designer-details p {
+    font-family: 'poppins';
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #828282;
+    margin: 0;
+    padding: 5px 0;
+}
+
+.designer-details {
+    padding-left: 25px;
+}
+
+.web-page {
+    display: flex;
+}
+
+.linkin {
+    padding: 0 10px;
+}
+
+.footer {
+    padding: 50px 100px 50px 190px;
+    display: flex;
+    background: #100E1D;
+    padding-bottom: 50px;
+}
+
+.footer-menu {
+    width: 32%;
+    display: grid;
+}
+
+.footer-menu a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'heebo';
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.web-share {
+    width: 40%;
+}
+
+.logo {
+    width: 45%;
+}
+
+.web-share .logo a {
+    list-style: none;
+    text-decoration: none;
+    font-family: 'heebo';
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: 800;
+    color: #F2F2F2;
+}
+
+.email p {
+    font-family: 'heebo';
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #F2F2F2;
+    margin: 0;
+    padding: 12px 0;
+}
+
+.email {
+    position: relative;
+}
+
+.email input {
+    padding: 12px 19px 12px 20px;
+    width: 100%;
+    border: 2px solid #F2F2F2;
+    border-radius: 12px;
+    outline: 0;
+    background: #F2F2F2;
+    color: #BDBDBD;
+}
+
+.email a {
+    position: absolute;
+    left: 174px;
+    top: 48px;
+    text-decoration: none;
+    background-color: #2D9CDB;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #F2F2F2;
+}
+
+.sidebar {
+    display: flex;
+    background-color: #100E1D;
+    height: 815px;
+    top: 0;
+    left: -345px;
+    position: fixed;
+}
+
+.nav__links li :hover {
+    color: red;
+}
+
+.side-menu {
+    display: flex;
+}
+
+.cancel-toggle {
+    color: wheat;
+    padding-left: 70px;
+    padding-top: 25px;
+}
+
+.sidebar__top a {
+    font-size: 25px;
+    font-family: "heebo";
+    color: white;
+    transition: all 0.3s ease;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar__top {
+    padding-left: 95px;
+}
+
+.cancel-toggle {
+    color: wheat;
+    padding-left: 85px;
+    padding-top: 25px;
+}
+
+.sidebar__top li {
+    text-decoration: none;
+    list-style: none;
+    padding-bottom: 40px;
+}
+
+ul.nav__links {
+    padding-top: 55px;
+    text-align: center;
+}
+
+.top-logo {
+    display: flex;
+    justify-content: right;
+}
+
+.sidebar.active {
+    left: 0;
+}
+
+
+@media screen and (max-width:1080px) {
+    .logo {
+        width: 20%;
+    }
+
+    .container {
+        padding: 100px 200px 50px 195px;
+    }
+
+    .container-2 {
+        padding: 0px 40px;
+    }
+
+    h1 {
+        width: 90%;
+    }
+
+    .small-container h1 {
+        width: 65%;
+    }
+
+    .small-container p {
+        width: 62%;
+    }
+
+    .contact input {
+        width: 43%;
+    }
+
+    .service {
+        width: 42%;
+        padding-left: 50px;
+        padding-top: 100px;
+    }
+
+    .design {
+        width: 95%;
+        padding: 0 70px;
+        padding-bottom: 100px;
+    }
+
+    .design p {
+        padding: 10px 5px 40px 0;
+    }
+
+    .create,
+    .code,
+    .storage {
+        padding: 45px 18px;
+    }
+
+    .application img,
+    .system img {
+        width: 100%;
+    }
+
+    .philosophy {
+        width: 80%;
+    }
+
+    .business {
+        width: 45%;
+        padding-left: 50px;
+    }
+
+    .team-persons {
+        padding-top: 150px;
+    }
+
+    .contact a {
+        left: 444px;
+    }
+
+    .smart,
+    .booking {
+        padding-top: 150px;
+    }
+
+    .application,
+    .system {
+        display: flex;
+        padding-left: 100px;
+    }
+
+    .team {
+        width: 55%;
+    }
+
+    .team p {
+        padding: 10px 115px 20px 0;
+    }
+
+    .footer {
+        padding: 50px 100px 50px 100px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .warp-container {
+        display: none;
+    }
+
+    .toggle {
+        display: block;
+    }
+
+    .image img {
+        height: 250px;
+    }
+
+    .container {
+        padding: 50px 40px 50px 40px;
+    }
+
+    .small-container {
+        padding: 50px 70px 5px 70px;
+    }
+
+    .small-container h1,
+    .small-container p {
+        width: 80%;
+    }
+
+    .contact {
+        padding-left: 70px;
+    }
+
+    .contact input {
+        width: 60%;
+    }
+
+    .contact a {
+        left: 352px;
+    }
+
+    .service {
+        width: 62%;
+        padding-left: 0;
+        padding-top: 150px;
+    }
+
+    .design {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 150px;
+    }
+
+    .design p {
+        width: 100%;
+    }
+
+    .business {
+        width: 62%;
+        padding-left: 10px;
+    }
+
+    .application,
+    .system {
+        padding-left: 50px;
+    }
+
+    .onboard,
+    .juice {
+        padding-left: 30px;
+    }
+
+    .smart,
+    .booking {
+        padding-top: 80px;
+    }
+
+    .more {
+        padding-right: 10px;
+    }
+
+    .team {
+        padding-top: 70px;
+        width: 65%;
+    }
+
+    .team-persons {
+        padding-top: 100px;
+    }
+
+    .team p {
+        width: 90%;
+        font-size: 28px;
+    }
+
+    .team h5 {
+        padding: 0px 30px 0 0;
+    }
+
+    .philosophy {
+        width: 100%;
+        padding-left: 0;
+        padding-top: 125px;
+    }
+
+    .philosophy h2 {
+        font-size: 28px;
+    }
+
+    .designer {
+        padding-bottom: 100px;
+    }
+
+    .web-share {
+        width: 30%;
+    }
+
+    .footer {
+        padding: 50px 50px 50px 100px;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .web-service {
+        padding: 20px 15px;
+    }
+
+    .container-2 {
+        padding: 0px 0px;
+    }
+
+    .image img {
+        height: 180px;
+    }
+
+    .web-service {
+        padding: 20px 15px;
+    }
+
+    .warp-menu {
+        padding-bottom: 15px;
+    }
+
+    h3 {
+        padding-bottom: 10px;
+    }
+
+    .container,
+    .small-container {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .small-container {
+        padding: 30px 20px 0 20px;
+    }
+
+    h1 {
+        width: 100%;
+        font-size: 27px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+    .small-container h1 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 45px;
+        font-weight: 400;
+    }
+
+    .small-container p {
+        margin: 0;
+        width: 100%;
+        font-size: 12px;
+        line-height: 27px;
+        font-weight: 400;
+        text-align: unset;
+        padding: 15px 0;
+    }
+
+    .contact a {
+        left: 187px;
+    }
+
+    .contact {
+        padding-left: 20px;
+    }
+
+    .service {
+        width: 100%;
+        padding-top: 100px;
+    }
+
+    .service h1 {
+        font-size: 33px;
+        line-height: 40px;
+        font-weight: 400;
+    }
+
+    .design {
+        padding-bottom: 50px;
+        display: unset;
+    }
+
+    .design p {
+        font-size: 15px;
+        text-align: unset;
+    }
+
+    .business {
+        padding-top: 50px;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    .business h1 {
+        font-size: 31px;
+    }
+
+    .application,
+    .system {
+        padding-left: 20px;
+        display: unset;
+    }
+
+    .smart,
+    .booking,
+    .onboard,
+    .juice {
+        padding-top: 40px;
+    }
+
+    .onboard,
+    .juice {
+        padding-left: 0;
+    }
+
+    .application p,
+    .system p {
+        font-size: 18px;
+    }
+
+    .more {
+        padding-top: 20px;
+        justify-content: unset;
+        padding-right: 0;
+        padding-left: 10px;
+    }
+
+    .team-persons {
+        display: unset;
+    }
+
+    .team {
+        padding-top: 100px;
+        width: 100%;
+    }
+
+    .team h3 {
+        font-size: 25px;
+    }
+
+    .team p {
+        width: 100%;
+        margin: 0;
+        padding: 15px 0;
+        font-size: 38px;
+        line-height: 50px;
+        font-weight: 300;
+    }
+
+    .team h5 {
+        width: 85%;
+        padding-bottom: 25px;
+        font-size: 20px;
+    }
+
+    .team-image {
+        padding-top: 20px;
+    }
+
+    .philosophy h2 {
+        font-size: 23px;
+    }
+
+    .philosophy h2 {
+        line-height: 40px;
+    }
+
+    .footer {
+        display: flow-root;
+        padding: 50px 50px 50px 50px;
+    }
+
+    .email input {
+        width: 84%;
+    }
+
+    .email a {
+        left: 205px;
+    }
+
+    .designer-details {
+        padding-left: 15px;
+    }
+
+    .footer-menu,
+    .web-share {
+        padding-bottom: 45px;
+    }
+
+    .warp-menu .warp-container {
+        display: none;
+    }
+
+    .sidebar .active {
+        display: block !important;
+    }
+
+    .sidebar {
+        display: none;
+        width: 100%;
+        left: 0;
+    }
+}
