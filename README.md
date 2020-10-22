@@ -51,7 +51,7 @@ https://nandhini-checkoutform.netlify.app/checkout-form/
   <img src ="edie-homepage/assest/desktop size-2.png">
   <img src ="edie-homepage/assest/desktop size-3.png">
   <img src ="edie-homepage/assest/desktop size-4.png">
-  <img src ="edie-homepage/assest/mobile size-1.png">
+ <img src ="edie-homepage/assest/Mobile size-1.png">
  </p>
   
        
