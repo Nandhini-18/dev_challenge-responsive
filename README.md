@@ -62,6 +62,6 @@ https://nandhini-portfolio.netlify.app/portfolio/
  <img src ="portfolio/Assest/desktop-size-2.png">
   <img src ="portfolio/Assest/desktop-size-3.png">
   <img src ="portfolio/Assest/desktop-size-4.png">
-  <img src ="portfolio/Assest/desktop-size-6.png">
+  <img src ="portfolio/Assest/desktop-size-5.png">
   </p>
        
