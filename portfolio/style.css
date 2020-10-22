@@ -1,0 +1,935 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.portfolio-1,.portfolio-2{
+    max-width: 1400px;
+    padding: 50px 200px;
+    background-color: #e3e1e1;
+}
+.portfolio-3{
+    margin: 0;
+    max-width: 1420px;
+    padding: 50px 50px;
+    background-color: #e3e1e1;
+}
+.coloum {
+    padding-left: 20px;
+    width: 100%;
+}
+
+.personal-details {
+    padding: 20px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.personal-details-1 {
+    width: 29%;
+    padding: 15px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+.bio-details{
+    display: flex;
+}
+
+.mail,
+.phone {
+    display: flex;
+}
+
+img {
+    border-radius: 12px;
+}
+
+.name {
+    width: 75%;
+}
+
+h3 {
+    padding-left: 15px;
+}
+
+.name h2 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4f4f4f;
+}
+
+.name p {
+    margin: 0;
+    padding-top: 10px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+}
+
+.contact-details h3 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4f4f4f;
+    padding-bottom: 10px;
+
+}
+
+.details {
+    width: 90%;
+    padding-top: 50px;
+}
+
+.details h5 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.personal-details .contact-details {
+    padding-top: 0;
+}
+
+.personal-details .details {
+    padding-top: 30px;
+}
+
+.bio-details-1 {
+    padding-top: 20px;
+}
+
+.contact-details {
+    padding-top: 20px;
+}
+
+.details {
+    width: 92%;
+    padding-top: 0px;
+}
+
+.recipe-blog {
+    padding: 20px;
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.recipe-blog-1,.recipe-blog-2,.recipe-blog-3 {
+    width: 35%;
+    padding: 30px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.recipe-details {
+    padding-left: 20px;
+}
+
+.recipe h1 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4f4f4f;
+    word-spacing: 10px;
+}
+
+.recipe h2 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    padding-top: 15px;
+}
+
+.recipe p {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    padding-top: 30px;
+}
+
+.warp-botton {
+    padding-top: 60px;
+    display: flex;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    padding: 15px 30px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background-color: #5C94E1;
+    border-radius: 12px;
+}
+
+.code {
+    padding-left: 20px;
+}
+
+.code a {
+    color: #5c94e1;
+    background-color: #FFFFFF;
+    border: 1px solid #5C94E1;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.recipe {
+    padding-top: 100px;
+}
+
+.recipe-details-1 {
+    padding-top: 20px;
+}
+
+.recipe-blog-1 p {
+    width: 85%;
+}
+
+.css-container {
+    padding-top: 100px;
+}
+
+.warp-css {
+    display: flex;
+    padding: 20px 20px 20px 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.warp-css-1,.warp-css-2 {
+    width: 50%;
+    padding: 20px 20px 20px 30px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+.warp-css-2 {
+    width: auto;
+    padding: 40px 20px 20px 30px;
+}
+.blog h5 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #e0e0e0;
+    padding-bottom: 30px;
+}
+
+.organize h3,.organize-1 h3 {
+    width: 25%;
+    padding-left: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #333333;
+    padding-bottom: 30px;
+}
+.organize-1 h3 {
+    width: 90%;
+}
+.organize p{
+    width: 82%;
+    padding-left: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    padding-bottom: 30px;
+}
+.article p{
+    padding-top: 50px;
+    padding-left: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.dev {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #5C94E1;
+    padding-top: 65px;
+}
+.dev h5{
+    margin: 0;
+}
+.css-container-1 {
+    padding-top: 100px;
+}
+.css-container-2 {
+    padding-top: 50px;
+}
+
+.small-container {
+    display: flex;
+}
+
+.warp-css-1 h3 {
+    width: 80%;
+}
+
+.warp-css-1 p {
+    padding-top: 20px;
+    width: 82%;
+    padding-left: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    padding-bottom: 12px;
+}
+
+.experiences-header {
+    display: flex;
+}
+.adidas,
+.hm,
+.nivea {
+    display: flex;
+    width: 32%;
+}
+  
+.experiences-2 .adidas,
+.experiences-2 .hm {
+    width: auto;
+}
+
+.adidas p {
+    width: 72%;
+}
+
+.hm p {
+    width: 70%;
+}
+
+.nivea p {
+    width: 72%;
+}
+.experiences-2 h1,
+.experiences-1 h1,
+.experiences h1 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4f4f4f;
+    margin: 0;
+    padding-bottom: 30px;
+}
+.experiences-2 h5,
+.experiences-1 h5,
+.experiences h5 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.experiences-2 h6,
+.experiences-1 h6,
+.experiences h6 {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+    margin: 0;
+    padding-bottom: 20px;
+}
+.experiences-2 h6,
+.experiences-1 h6 {
+    padding-bottom: 28px;
+}
+.experiences-2 p,
+.experiences-1 p,
+.experiences p {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #828282;
+    margin: 0;
+}
+
+.adidas-experience,
+.hm-experience,
+.nivea-experience {
+    padding-top: 10px;
+}
+
+.hm-experience {
+    padding-left: 10px;
+}
+.experiences-2,
+.experiences,
+.experiences-1 {
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.experiences-1 {
+    width: 30%;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.company-experiences {
+    padding-top: 80px;
+}
+
+.experiences-1 .adidas,
+.experiences-1 .hm,
+.experiences-1 .nivea {
+    display: flex;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.experiences-1 .adidas p,
+.experiences-1 .hm p,
+.experiences-1 .nivea p {
+    width: 90%;
+}
+.experiences-2 .company,
+.experiences-2 .hm-company{
+    padding-right: 10px;
+}
+.experiences-2 .hm-experience {
+    padding-left: 19px;
+}
+.experiences-2 .hm{
+    padding-top: 20px;
+}
+.certificates {
+    display: flex;
+}
+
+.cooking,
+.biking {
+    padding-left: 50px;
+}
+
+.hobby,
+.hobby-1,
+.hobby-2 {
+    padding: 28px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.hobby-1{
+    width: 34%;
+}
+.hobby-2 {
+    width: auto;
+}
+
+.hobby-1 .cooking,
+.hobby-1 .biking {
+    padding-left: 0;
+}
+.hobby-2 .cooking,
+.hobby-2 .biking{
+    padding-left: 0;
+}
+
+.hobby-certificates {
+    padding-top: 100px;
+}
+
+.hobby-1 h1,
+.hobby-head h1,
+.hobby-2 h1{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4f4f4f;
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+.hobby-1 h5,
+.certificates h5,
+.hobby-2 h5{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.hobby-1 p,
+.certificates p,
+.hobby-2 p {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    margin: 0;
+    padding-top: 20px;
+    width: 70%;
+}
+
+.hobby-1 p,
+.hobby-2 p{
+    width: auto;
+}
+
+.hobby-1 .gaming,
+.hobby-1 .cooking {
+    padding-bottom: 40px;
+}
+.hobby-2 .gaming,
+.hobby-2 .cooking{
+    padding-bottom: 40px;
+}
+.projects {
+    padding-top: 100px;
+}
+.projects-3 {
+    padding-top: 50px;
+}
+
+.project-head {
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.projects h1,.projects-3 h1{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.projects-1 {
+    padding-top: 80px;
+}
+.projects-3 .project-head-1,
+.projects-1 .project-head-1 {
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.warp-project {
+    padding-bottom: 20px;
+}
+
+.warp-project h1 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.project-button {
+    display: flex;
+    height: 40px;
+}
+
+.vue,
+.reponsive {
+    padding-left: 20px;
+}
+
+.project-button .react {
+    width: auto;
+}
+
+.react a,
+.vue a,
+.reponsive a {
+    cursor: pointer;
+    margin: 0;
+    padding: 8px 22px;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+    color: #4f4f4f;
+    border: 1px solid #4F4F4F;
+    box-sizing: border-box;
+    border-radius: 12px;
+    background: none;
+}
+
+.vue a {
+    border: 1px solid #6AA2EF;
+    color: #6AA2EF;
+}
+
+.reponsive a {
+    border: 1px solid #6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+
+.warp-container-1 {
+    padding-top: 100px;
+}
+
+.warp-front,
+.warp-front-1,
+.warp-front-2,
+.warp-front-3 {
+    padding: 20px 20px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid#FFFFFF;
+}
+
+.meter-1,
+.meter-2 {
+    width: 50%;
+}
+
+.front-end h1 {
+    margin: 0;
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+
+.meter {
+    width: 65%;
+    height: 12px;
+    background: #C4C4C4;
+    border-radius: 28px;
+}
+
+.meter>span {
+    border-radius: 28px;
+    display: block;
+    height: 100%;
+    background-color: #2F80ED;
+    box-shadow: inset 0 2px 9px rgba(255, 255, 255, 0.3), inset 0 -2px 6px rgba(0, 0, 0, 0.4);
+}
+
+.react-meter {
+    display: flex;
+    padding-bottom: 13px;
+}
+
+.react {
+    width: 25%;
+}
+
+.react h1,
+.react h5 {
+    margin: 0;
+}
+
+.react h5 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #4f4f4f;
+    margin: 0;
+}
+
+.warp-meter {
+    display: flex;
+}
+
+.warp-container-2 {
+    padding-top: 100px;
+}
+
+.warp-container-3 {
+    padding-top: 50px;
+    width: 90%;
+}
+.warp-front-1 {
+    width: 42%;
+}
+.footer,.footer-1{
+    padding-top: 50px;
+}
+.footer-1 .page a,.page-1 a,.page-2 a,.page-3 a,.page-4 a,.page-5 a,.page-6 a,
+.footer .page a,.page-1 a,.page-2 a,.page-3 a,.page-4 a,.page-5 a,.page-6 a{
+        border: 1px solid #4F4F4F;
+        background-color: unset;
+        color: #4F4F4F;
+        padding: 15px 20px;
+}
+
+.footer{
+    display: flex;
+}
+.footer-1{
+    display: flex;
+    justify-content: flex-end;
+}
+.page-1,.page-2,.page-3,.page-4,.page-5,.page-6{
+    padding-left: 20px;
+}
+.page-4 a{
+    border: none;
+}
+.page a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-1 a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-2 a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-3 a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-4 a:hover{
+    border: 1px solid#6AA2EF;
+    border: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-5 a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.page-6 a:hover{
+    border: 1px solid#6AA2EF;
+    background-color: #6AA2EF;
+    color: #FFFFFF;
+}
+.warp-front-2{
+    padding: 5px 20px;
+}
+
+.warp-container-3 .react{
+    width: 30%;
+}
+.hobby-certificates-1{
+    padding-top: 30px;
+    width: 90%;
+}
+.hobby-certificates-1 h1{
+    padding-bottom: 15px;
+}
+.hobby-certificates-1 h5{
+    padding-bottom: 10px;
+}
+.hobby-certificates-1 p{
+    padding-top: 0;
+}
+.hobby-certificates-1 .hobby-2 .gaming, .hobby-certificates-1 .hobby-2 .cooking {
+    padding-bottom: 15px;
+}
+.hobby-certificates-1 .hobby-2 {
+    padding: 18px 28px;
+}
+.warp-container{
+    display: flex;
+    padding-top: 50px;
+}
+.container{
+    width: 70%;
+}
+.experiences-2{
+    padding: 40px;
+}
+.container-3{
+    display: flex;
+}
+.container-3 .recipe-blog-1{
+    width: auto;
+}
+.recipe-blog-2,.recipe-blog-3 {
+    width: 85%;
+}
+.container-3 .recipe{
+    padding-top: 50px;
+}
+.warp-container-4{
+    display: flex;
+}
+.container-5
+.experiences-1 {
+    width: 28%;
+}
+.container-5
+.hobby-1 {
+    width: 27%;
+}
+.container-5
+.warp-container {
+    padding-top: 10px;
+}
+.container-5
+.company-experiences {
+    padding-top: 50px;
+}
+.container-5
+.hobby-certificates {
+    padding-top: 50px;
+}
+.example-3{
+    display: flex;
+}
+.container-6{
+    display: flex;
+}
+.example-3 .container-5 {
+    width: 28%;
+}
+.example-3 .container-7 {
+    width: 70%;
+}
+.example-3 .personal-details-1 {
+    width:82%;
+}
+.example-3 .container-5 .experiences-1 {
+    width:80%;
+}
+.example-3 .container-5 .hobby-1 {
+    width: 76%;
+}
+.example-3 .warp-container-2 {
+    padding-top: 10px;
+}
+.example-3 .warp-container-7 {
+    width: 60%;
+}
+.example-3 .warp-front-1 {
+    width: auto;
+}
+.example-3 .warp-container-8 {
+    padding-left: 26px;
+    width: 50%;
+}
+.example-3 .projects {
+    padding-top: 50px;
+}
+.example-3 .recipe {
+    padding-top: 30px;
+}
+.example-3 .css-container {
+    padding-top: 30px;
+}
+.example-3 .recipe-details {
+    padding-left: 30px;
+}
+@media only screen and (max-width: 1081px){
+    .portfolio-1, .portfolio-2 {
+        max-width:  max-content;
+        padding: 50px 50px;
+        background-color: #e3e1e1;
+    }
+   .personal-details-1 img,.recipe-blog-1 img {
+        width: 288px;
+   }
+   .recipe-blog-1 img {
+    width: 342px;
+}
+.certificates img{
+    width: 270px;
+}
+.hobby-1 img{
+    width: 325px;
+}
+.hobby-2 img{
+    width: 295px;
+}
+.container-3 img{
+    width: 282px;
+}
+.warp-container img{
+    width: 290px;
+}
+.example-3 .container-5 {
+    width: 40%;
+}
+.portfolio-3 .hobby-1 img {
+    width: 275px;
+}
+.portfolio-3 .react {
+    width: 44%;
+}
+.portfolio-3 .recipe img{
+width: 302px;
+height: 236px;
+}
+.portfolio-3 .organize h3, .organize-1 h3 {
+    width: 50%;
+}
+.portfolio-3  .organize p {
+    width: 90%;
+}
+.portfolio-3 .css-image img{
+    width: 300px;
+}
+}
