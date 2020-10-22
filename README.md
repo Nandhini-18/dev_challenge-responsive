@@ -6,6 +6,8 @@ https://nandhini-interior.netlify.app/interior-consultant/
 https://nandhini-classicrecipe.netlify.app/classic/   
 https://nandhini-gallery.netlify.app/my-gallery/
 https://nandhini-checkoutform.netlify.app/checkout-form/
+https://nandhini-ediehomepage.netlify.app/edie-homepage/
+https://nandhini-portfolio.netlify.app/portfolio/
 
 ## 404 Page
 <p>
@@ -53,5 +55,8 @@ https://nandhini-checkoutform.netlify.app/checkout-form/
   <img src ="edie-homepage/assest/desktop size-4.png">
  <img src ="edie-homepage/assest/Mobile size-1.png">
  </p>
+  
+ ## Portfolio
+ <p>
   
        
