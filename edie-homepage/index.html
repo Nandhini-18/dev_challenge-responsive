@@ -10,14 +10,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
         <script src="./app.js"></script>
     </head>
     <script type="text/javascript">
-        function togglesidebar() {
-            document.getElementsByClassName(".sidebar").classlist.toggle("active");
+        function openMenu() {
+            document.getElementById("side-menu").style.display = "block";
+        }
+        function closeMenu() {
+            document.getElementById("side-menu").style.display = "none";
         }
     </script>
 
@@ -34,11 +38,11 @@
                 <a href="">Clients</a>
                 <a href="">Contact</a>
             </div>
-            <div class="toggle">
+            <div class="toggle" onclick="openMenu()">
                 <i class="fa fa-bars menu"></i>
             </div>
         </div>
-        <div class="side-menu">
+        <div id="side-menu">
             <div class="sidebar">
                 <div class="sidebar__top">
                     <nav>
@@ -50,7 +54,7 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="cancel-toggle">
+                <div id="cancel-toggle" onclick="closeMenu()">
                     <i class="fa fas fa-times cancel-icon"></i>
                 </div>
             </div>
@@ -139,13 +143,13 @@
                     </div>
                     <div class="juice">
                         <img src="assest/juice-product.png">
-                        <p>Front End applicati on</p>
+                        <p>Front End application</p>
                         <span>Juice product homepage</span>
                     </div>
                 </div>
                 <div class="seemore">
                     <div class="more">
-                        <a href="">See more </a>
+                        <a href="">see more </a>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="" width="50px" height="50px">
                             <path d="M0 0h24v24H0z" fill="none" />
                             <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4z" />
