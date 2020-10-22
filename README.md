@@ -44,3 +44,14 @@ https://nandhini-checkoutform.netlify.app/checkout-form/
   <img src ="checkout-form/Assest/mobile size 1.png">
   <img src ="checkout-form/Assest/mobile size 2.png">
 </p>
+
+## Edie homepage
+<p>
+  <img src ="edie-homepage/assest/desktop size-1.png">
+  <img src ="edie-homepage/assest/desktop size-2.png">
+  <img src ="edie-homepage/assest/desktop size-3.png">
+  <img src ="edie-homepage/assest/desktop size-4.png">
+  <img src ="edie-homepage/assest/mobile size-1.png">
+ </p>
+  
+       
