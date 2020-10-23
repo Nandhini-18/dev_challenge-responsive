@@ -13,14 +13,14 @@ h3 {
   padding-bottom: 30px;
 }
 
-.warp-heading h1 {
+.wrap-heading h1 {
   padding-bottom: 15px;
   margin: 0;
   font-family: "Playfair Display", serif;
   font-size: 48px;
 }
 
-.warp-heading p {
+.wrap-heading p {
   width: 60%;
   font-family: "Montserrat";
   font-size: 18px;
@@ -33,10 +33,10 @@ img{
   width: 100%;
 }
 
-.warp-container {
+.wrap-container {
   width: 75%;
 }
-.warp-image {
+.wrap-image {
   padding-bottom: 25px;
 }
 
@@ -49,7 +49,7 @@ img{
   padding-left: 95px;
 }
 
-.warp-ingredients h6,
+.wrap-ingredients h6,
 .cake h6 {
   font-family: "Playfair Display", serif;
   font-size: 18px;
@@ -59,12 +59,12 @@ img{
   padding: 0 0 20px 0;
 }
 
-.warp-ingredients {
+.wrap-ingredients {
   width: 75%;
   padding-bottom: 20px;
 }
 
-.warp-ingredients h2 {
+.wrap-ingredients h2 {
   font-family: "Montserrat", serif;
   font-size: 24px;
   color: #333333;
@@ -72,20 +72,20 @@ img{
   padding: 0 0 20px 0;
 }
 
-.warp-container ul {
+.wrap-container ul {
   margin: 0;
   padding: 0;
  
 }
 
-.warp-container ul li {
+.wrap-container ul li {
   display: flex;
   width: 100%;
   list-style-type: none;
   
 }
 
-.warp-container ul p {
+.wrap-container ul p {
   margin: 0;
   padding: 0;
   padding-left: 20px;
@@ -149,12 +149,12 @@ ol li::before {
   box-shadow: 0px 2px 0px #ddd8d8;
 }
 
-.warp-instructions {
+.wrap-instructions {
   width: 80%;
   padding-bottom: 20px;
 }
 
-.warp-instructions h1 {
+.wrap-instructions h1 {
   font-family: "Playfair Display", serif;
   font-size: 24px;
   margin: 0;
@@ -163,7 +163,7 @@ ol li::before {
   font-weight: 400;
 }
 
-.warp-instructions p {
+.wrap-instructions p {
   font-family: "Montserrat", serif;
   font-size: 16px;
   line-height: 24px;
@@ -178,7 +178,7 @@ li {
   list-style: none;
 }
 
-.warp- a {
+.wrap- a {
   text-decoration: none;
   color: gray;
   font-family: "Montserrat", serif;
@@ -247,7 +247,7 @@ a {
     padding-bottom: 20px;
 }
 
-  .warp-heading h1 {
+  .wrap-heading h1 {
     font-size: 20px;
   }
 
@@ -255,20 +255,20 @@ a {
     padding: 0;
   }
 
-  .warp-heading p {
+  .wrap-heading p {
     width: 100%;
   }
 
-  .warp-heading p {
+  .wrap-heading p {
     font-size: 14px;
     padding-left: 10px;
   }
 
-  .warp-ingredients {
+  .wrap-ingredients {
     width: 100%;
     font-weight: 400;
   }
-  .warp-image {
+  .wrap-image {
     padding-bottom: 0;
 }
 
@@ -283,17 +283,17 @@ a {
     padding-left: 15px;
   }
 
-  .warp-instructions {
+  .wrap-instructions {
     width: 100%;
     font-weight: 400;
   }
 
-  .warp-ingredients h2 {
+  .wrap-ingredients h2 {
     padding: 10px 0 10px 0;
     font-size: 20px;
   }
 
-  .warp-ingredients h6,
+  .wrap-ingredients h6,
   .cake h6 {
     font-size: 15px;
   }
@@ -303,7 +303,7 @@ a {
     padding-right: 3%;
   }
 
-  .warp-instructions h1 {
+  .wrap-instructions h1 {
     padding: 20px 0;
     margin: 0;
     font-size: 20px;
@@ -319,7 +319,7 @@ a {
     display: flex;
   }
 
-  .warp-container {
+  .wrap-container {
     width: auto;
   }
 
@@ -343,7 +343,7 @@ a {
     padding: 12px 17px 8px 0;
     font-size: 12px;
   }
-  .warp-container ul li {
+  .wrap-container ul li {
     padding-bottom: 8px; 
 }
   .container {
@@ -364,7 +364,7 @@ a {
   .footer {
     margin-left: 0;
   }
-  .warp-instructions p {
+  .wrap-instructions p {
     padding-bottom: 15px;
 }
 a {
@@ -385,10 +385,10 @@ a {
   img {
     width: 100%;
   }
-  .warp-heading h1 {
+  .wrap-heading h1 {
     font-size: 28px;
   }
-  .warp-heading p {
+  .wrap-heading p {
     width: 80%;
   }
 
@@ -407,7 +407,7 @@ a {
     padding-left: 0;
   }
 
-  .warp-source {
+  .wrap-source {
     width: 100%;
   }
 
@@ -419,7 +419,7 @@ a {
   .container-2 {
     padding-left: 10px;
   }
-  .warp-heading h1 {
+  .wrap-heading h1 {
     font-size: 35px;
   }
 }
