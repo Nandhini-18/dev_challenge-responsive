@@ -16,12 +16,12 @@ body {
     color: #333333;
 }
 
-.warp-menu {
+.wrap-menu {
     display: flex;
     justify-content: space-between;
 }
 
-.warp-container a {
+.wrap-container a {
     text-decoration: none;
     padding-left: 50px;
     font-family: "Poppins";
@@ -32,7 +32,7 @@ body {
     transition: 5ms;
 }
 
-.warp-container a:hover {
+.wrap-container a:hover {
     color: blue;
 
 }
@@ -159,7 +159,7 @@ img {
     border-radius: 16px;
     padding: 10px 10px 10px 10px;
 }
-.warp-design {
+.wrap-design {
     margin-bottom: 150px;
 }
 .design h1 {
@@ -298,7 +298,7 @@ img {
 .juice {
     padding-left: 35px;
 }
-.warp-products {
+.wrap-products {
     margin-bottom: 150px;
 }
 .smart,
@@ -465,7 +465,7 @@ svg {
 .linkin {
     padding: 0 10px;
 }
-.warp-designer {
+.wrap-designer {
     margin-bottom: 150px;
 }
 
@@ -711,10 +711,10 @@ ul.nav__links {
 }
 
 @media screen and (max-width:768px) {
-    .warp-container {
+    .wrap-container {
         display: none;
     }
-    .details,.warp-products, .warp-designer,.warp-design {
+    .details,.wrap-products, .wrap-designer,.wrap-design {
         margin-bottom: 100px;
     }
 
@@ -842,7 +842,7 @@ ul.nav__links {
     .web-service {
         padding: 20px 15px;
     }
-    .details,.warp-products, .warp-designer,.warp-design{
+    .details,.wrap-products, .wrap-designer,.wrap-design{
         margin-bottom: 70px;
     }
 
@@ -858,7 +858,7 @@ ul.nav__links {
         padding: 20px 15px;
     }
 
-    .warp-menu {
+    .wrap-menu {
         padding-bottom: 15px;
     }
 
@@ -1030,7 +1030,7 @@ ul.nav__links {
         padding-bottom: 45px;
     }
 
-    .warp-menu .warp-container {
+    .wrap-menu .wrap-container {
         display: none;
     }
 
