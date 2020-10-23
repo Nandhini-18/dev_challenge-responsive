@@ -2,17 +2,21 @@ body {
     margin: 0;
     padding: 0;
 }
-.portfolio-1,.portfolio-2{
+
+.portfolio-1,
+.portfolio-2 {
     max-width: 1400px;
     padding: 50px 200px;
     background-color: #e3e1e1;
 }
-.portfolio-3{
+
+.portfolio-3 {
     margin: 0;
     max-width: 1420px;
     padding: 50px 50px;
     background-color: #e3e1e1;
 }
+
 .coloum {
     padding-left: 20px;
     width: 100%;
@@ -33,7 +37,8 @@ body {
     border-radius: 12px;
     border: 1px solid#FFFFFF;
 }
-.bio-details{
+
+.bio-details {
     display: flex;
 }
 
@@ -129,7 +134,9 @@ h3 {
     border: 1px solid#FFFFFF;
 }
 
-.recipe-blog-1,.recipe-blog-2,.recipe-blog-3 {
+.recipe-blog-1,
+.recipe-blog-2,
+.recipe-blog-3 {
     width: 35%;
     padding: 30px 20px;
     background-color: #FFFFFF;
@@ -171,7 +178,7 @@ h3 {
     padding-top: 30px;
 }
 
-.warp-botton {
+.wrap-botton {
     padding-top: 60px;
     display: flex;
 }
@@ -217,7 +224,7 @@ a {
     padding-top: 100px;
 }
 
-.warp-css {
+.wrap-css {
     display: flex;
     padding: 20px 20px 20px 30px;
     background-color: #FFFFFF;
@@ -225,17 +232,20 @@ a {
     border: 1px solid#FFFFFF;
 }
 
-.warp-css-1,.warp-css-2 {
+.wrap-css-1,
+.wrap-css-2 {
     width: 50%;
     padding: 20px 20px 20px 30px;
     background-color: #FFFFFF;
     border-radius: 12px;
     border: 1px solid#FFFFFF;
 }
-.warp-css-2 {
+
+.wrap-css-2 {
     width: auto;
     padding: 40px 20px 20px 30px;
 }
+
 .blog h5 {
     margin: 0;
     font-family: "Montserrat";
@@ -246,7 +256,8 @@ a {
     padding-bottom: 30px;
 }
 
-.organize h3,.organize-1 h3 {
+.organize h3,
+.organize-1 h3 {
     width: 25%;
     padding-left: 0;
     margin: 0;
@@ -257,10 +268,12 @@ a {
     color: #333333;
     padding-bottom: 30px;
 }
+
 .organize-1 h3 {
     width: 90%;
 }
-.organize p{
+
+.organize p {
     width: 82%;
     padding-left: 0;
     margin: 0;
@@ -271,7 +284,8 @@ a {
     color: #828282;
     padding-bottom: 30px;
 }
-.article p{
+
+.article p {
     padding-top: 50px;
     padding-left: 0;
     margin: 0;
@@ -290,12 +304,15 @@ a {
     color: #5C94E1;
     padding-top: 65px;
 }
-.dev h5{
+
+.dev h5 {
     margin: 0;
 }
+
 .css-container-1 {
     padding-top: 100px;
 }
+
 .css-container-2 {
     padding-top: 50px;
 }
@@ -304,11 +321,11 @@ a {
     display: flex;
 }
 
-.warp-css-1 h3 {
+.wrap-css-1 h3 {
     width: 80%;
 }
 
-.warp-css-1 p {
+.wrap-css-1 p {
     padding-top: 20px;
     width: 82%;
     padding-left: 0;
@@ -324,13 +341,14 @@ a {
 .experiences-header {
     display: flex;
 }
+
 .adidas,
 .hm,
 .nivea {
     display: flex;
     width: 32%;
 }
-  
+
 .experiences-2 .adidas,
 .experiences-2 .hm {
     width: auto;
@@ -347,6 +365,7 @@ a {
 .nivea p {
     width: 72%;
 }
+
 .experiences-2 h1,
 .experiences-1 h1,
 .experiences h1 {
@@ -358,6 +377,7 @@ a {
     margin: 0;
     padding-bottom: 30px;
 }
+
 .experiences-2 h5,
 .experiences-1 h5,
 .experiences h5 {
@@ -369,6 +389,7 @@ a {
     margin: 0;
     padding-bottom: 10px;
 }
+
 .experiences-2 h6,
 .experiences-1 h6,
 .experiences h6 {
@@ -380,10 +401,12 @@ a {
     margin: 0;
     padding-bottom: 20px;
 }
+
 .experiences-2 h6,
 .experiences-1 h6 {
     padding-bottom: 28px;
 }
+
 .experiences-2 p,
 .experiences-1 p,
 .experiences p {
@@ -404,6 +427,7 @@ a {
 .hm-experience {
     padding-left: 10px;
 }
+
 .experiences-2,
 .experiences,
 .experiences-1 {
@@ -438,16 +462,20 @@ a {
 .experiences-1 .nivea p {
     width: 90%;
 }
+
 .experiences-2 .company,
-.experiences-2 .hm-company{
+.experiences-2 .hm-company {
     padding-right: 10px;
 }
+
 .experiences-2 .hm-experience {
     padding-left: 19px;
 }
-.experiences-2 .hm{
+
+.experiences-2 .hm {
     padding-top: 20px;
 }
+
 .certificates {
     display: flex;
 }
@@ -466,9 +494,10 @@ a {
     border: 1px solid#FFFFFF;
 }
 
-.hobby-1{
+.hobby-1 {
     width: 34%;
 }
+
 .hobby-2 {
     width: auto;
 }
@@ -477,8 +506,9 @@ a {
 .hobby-1 .biking {
     padding-left: 0;
 }
+
 .hobby-2 .cooking,
-.hobby-2 .biking{
+.hobby-2 .biking {
     padding-left: 0;
 }
 
@@ -488,7 +518,7 @@ a {
 
 .hobby-1 h1,
 .hobby-head h1,
-.hobby-2 h1{
+.hobby-2 h1 {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 24px;
@@ -500,7 +530,7 @@ a {
 
 .hobby-1 h5,
 .certificates h5,
-.hobby-2 h5{
+.hobby-2 h5 {
     font-family: "Montserrat";
     font-weight: 600;
     font-size: 18px;
@@ -524,7 +554,7 @@ a {
 }
 
 .hobby-1 p,
-.hobby-2 p{
+.hobby-2 p {
     width: auto;
 }
 
@@ -532,13 +562,16 @@ a {
 .hobby-1 .cooking {
     padding-bottom: 40px;
 }
+
 .hobby-2 .gaming,
-.hobby-2 .cooking{
+.hobby-2 .cooking {
     padding-bottom: 40px;
 }
+
 .projects {
     padding-top: 100px;
 }
+
 .projects-3 {
     padding-top: 50px;
 }
@@ -550,7 +583,8 @@ a {
     border: 1px solid#FFFFFF;
 }
 
-.projects h1,.projects-3 h1{
+.projects h1,
+.projects-3 h1 {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 24px;
@@ -562,6 +596,7 @@ a {
 .projects-1 {
     padding-top: 80px;
 }
+
 .projects-3 .project-head-1,
 .projects-1 .project-head-1 {
     padding: 20px 20px;
@@ -570,11 +605,11 @@ a {
     border: 1px solid#FFFFFF;
 }
 
-.warp-project {
+.wrap-project {
     padding-bottom: 20px;
 }
 
-.warp-project h1 {
+.wrap-project h1 {
     font-family: "Montserrat";
     font-weight: 500;
     font-size: 24px;
@@ -625,14 +660,14 @@ a {
     color: #FFFFFF;
 }
 
-.warp-container-1 {
+.wrap-container-1 {
     padding-top: 100px;
 }
 
-.warp-front,
-.warp-front-1,
-.warp-front-2,
-.warp-front-3 {
+.wrap-front,
+.wrap-front-1,
+.wrap-front-2,
+.wrap-front-3 {
     padding: 20px 20px;
     background-color: #FFFFFF;
     border-radius: 12px;
@@ -692,244 +727,326 @@ a {
     margin: 0;
 }
 
-.warp-meter {
+.wrap-meter {
     display: flex;
 }
 
-.warp-container-2 {
+.wrap-container-2 {
     padding-top: 100px;
 }
 
-.warp-container-3 {
+.wrap-container-3 {
     padding-top: 50px;
     width: 90%;
 }
-.warp-front-1 {
+
+.wrap-front-1 {
     width: 42%;
 }
-.footer,.footer-1{
+
+.footer,
+.footer-1 {
     padding-top: 50px;
 }
-.footer-1 .page a,.page-1 a,.page-2 a,.page-3 a,.page-4 a,.page-5 a,.page-6 a,
-.footer .page a,.page-1 a,.page-2 a,.page-3 a,.page-4 a,.page-5 a,.page-6 a{
-        border: 1px solid #4F4F4F;
-        background-color: unset;
-        color: #4F4F4F;
-        padding: 15px 20px;
+
+.footer-1 .page a,
+.page-1 a,
+.page-2 a,
+.page-3 a,
+.page-4 a,
+.page-5 a,
+.page-6 a,
+.footer .page a,
+.page-1 a,
+.page-2 a,
+.page-3 a,
+.page-4 a,
+.page-5 a,
+.page-6 a {
+    border: 1px solid #4F4F4F;
+    background-color: unset;
+    color: #4F4F4F;
+    padding: 15px 20px;
 }
 
-.footer{
+.footer {
     display: flex;
 }
-.footer-1{
+
+.footer-1 {
     display: flex;
     justify-content: flex-end;
 }
-.page-1,.page-2,.page-3,.page-4,.page-5,.page-6{
+
+.page-1,
+.page-2,
+.page-3,
+.page-4,
+.page-5,
+.page-6 {
     padding-left: 20px;
 }
-.page-4 a{
+
+.page-4 a {
     border: none;
 }
-.page a:hover{
+
+.page a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.page-1 a:hover{
+
+.page-1 a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.page-2 a:hover{
+
+.page-2 a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.page-3 a:hover{
+
+.page-3 a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.page-4 a:hover{
+
+.page-4 a:hover {
     border: 1px solid#6AA2EF;
     border: #6AA2EF;
     color: #FFFFFF;
 }
-.page-5 a:hover{
+
+.page-5 a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.page-6 a:hover{
+
+.page-6 a:hover {
     border: 1px solid#6AA2EF;
     background-color: #6AA2EF;
     color: #FFFFFF;
 }
-.warp-front-2{
+
+.wrap-front-2 {
     padding: 5px 20px;
 }
 
-.warp-container-3 .react{
+.wrap-container-3 .react {
     width: 30%;
 }
-.hobby-certificates-1{
+
+.hobby-certificates-1 {
     padding-top: 30px;
     width: 90%;
 }
-.hobby-certificates-1 h1{
+
+.hobby-certificates-1 h1 {
     padding-bottom: 15px;
 }
-.hobby-certificates-1 h5{
+
+.hobby-certificates-1 h5 {
     padding-bottom: 10px;
 }
-.hobby-certificates-1 p{
+
+.hobby-certificates-1 p {
     padding-top: 0;
 }
-.hobby-certificates-1 .hobby-2 .gaming, .hobby-certificates-1 .hobby-2 .cooking {
+
+.hobby-certificates-1 .hobby-2 .gaming,
+.hobby-certificates-1 .hobby-2 .cooking {
     padding-bottom: 15px;
 }
+
 .hobby-certificates-1 .hobby-2 {
     padding: 18px 28px;
 }
-.warp-container{
+
+.wrap-container {
     display: flex;
     padding-top: 50px;
 }
-.container{
+
+.container {
     width: 70%;
 }
-.experiences-2{
+
+.experiences-2 {
     padding: 40px;
 }
-.container-3{
+
+.container-3 {
     display: flex;
 }
-.container-3 .recipe-blog-1{
+
+.container-3 .recipe-blog-1 {
     width: auto;
 }
-.recipe-blog-2,.recipe-blog-3 {
+
+.recipe-blog-2,
+.recipe-blog-3 {
     width: 85%;
 }
-.container-3 .recipe{
+
+.container-3 .recipe {
     padding-top: 50px;
 }
-.warp-container-4{
+
+.wrap-container-4 {
     display: flex;
 }
-.container-5
-.experiences-1 {
+
+.container-5 .experiences-1 {
     width: 28%;
 }
-.container-5
-.hobby-1 {
+
+.container-5 .hobby-1 {
     width: 27%;
 }
-.container-5
-.warp-container {
+
+.container-5 .wrap-container {
     padding-top: 10px;
 }
-.container-5
-.company-experiences {
+
+.container-5 .company-experiences {
     padding-top: 50px;
 }
-.container-5
-.hobby-certificates {
+
+.container-5 .hobby-certificates {
     padding-top: 50px;
 }
-.example-3{
+
+.example-3 {
     display: flex;
 }
-.container-6{
+
+.container-6 {
     display: flex;
 }
+
 .example-3 .container-5 {
     width: 28%;
 }
+
 .example-3 .container-7 {
     width: 70%;
 }
+
 .example-3 .personal-details-1 {
-    width:82%;
+    width: 82%;
 }
+
 .example-3 .container-5 .experiences-1 {
-    width:80%;
+    width: 80%;
 }
+
 .example-3 .container-5 .hobby-1 {
     width: 76%;
 }
-.example-3 .warp-container-2 {
+
+.example-3 .wrap-container-2 {
     padding-top: 10px;
 }
-.example-3 .warp-container-7 {
+
+.example-3 .wrap-container-7 {
     width: 60%;
 }
-.example-3 .warp-front-1 {
+
+.example-3 .wrap-front-1 {
     width: auto;
 }
-.example-3 .warp-container-8 {
+
+.example-3 .wrap-container-8 {
     padding-left: 26px;
     width: 50%;
 }
+
 .example-3 .projects {
     padding-top: 50px;
 }
+
 .example-3 .recipe {
     padding-top: 30px;
 }
+
 .example-3 .css-container {
     padding-top: 30px;
 }
+
 .example-3 .recipe-details {
     padding-left: 30px;
 }
-@media only screen and (max-width: 1081px){
-    .portfolio-1, .portfolio-2 {
-        max-width:  max-content;
+
+@media only screen and (max-width: 1081px) {
+
+    .portfolio-1,
+    .portfolio-2 {
+        max-width: max-content;
         padding: 50px 50px;
         background-color: #e3e1e1;
     }
-   .personal-details-1 img,.recipe-blog-1 img {
+
+    .personal-details-1 img,
+    .recipe-blog-1 img {
         width: 288px;
-   }
-   .recipe-blog-1 img {
-    width: 342px;
-}
-.certificates img{
-    width: 270px;
-}
-.hobby-1 img{
-    width: 325px;
-}
-.hobby-2 img{
-    width: 295px;
-}
-.container-3 img{
-    width: 282px;
-}
-.warp-container img{
-    width: 290px;
-}
-.example-3 .container-5 {
-    width: 40%;
-}
-.portfolio-3 .hobby-1 img {
-    width: 275px;
-}
-.portfolio-3 .react {
-    width: 44%;
-}
-.portfolio-3 .recipe img{
-width: 302px;
-height: 236px;
-}
-.portfolio-3 .organize h3, .organize-1 h3 {
-    width: 50%;
-}
-.portfolio-3  .organize p {
-    width: 90%;
-}
-.portfolio-3 .css-image img{
-    width: 300px;
-}
+    }
+
+    .recipe-blog-1 img {
+        width: 342px;
+    }
+
+    .certificates img {
+        width: 270px;
+    }
+
+    .hobby-1 img {
+        width: 325px;
+    }
+
+    .hobby-2 img {
+        width: 295px;
+    }
+
+    .container-3 img {
+        width: 282px;
+    }
+
+    .wrap-container img {
+        width: 290px;
+    }
+
+    .example-3 .container-5 {
+        width: 40%;
+    }
+
+    .portfolio-3 .hobby-1 img {
+        width: 275px;
+    }
+
+    .portfolio-3 .react {
+        width: 44%;
+    }
+
+    .portfolio-3 .recipe img {
+        width: 302px;
+        height: 236px;
+    }
+
+    .portfolio-3 .organize h3,
+    .organize-1 h3 {
+        width: 50%;
+    }
+
+    .portfolio-3 .organize p {
+        width: 90%;
+    }
+
+    .portfolio-3 .css-image img {
+        width: 300px;
+    }
 }
