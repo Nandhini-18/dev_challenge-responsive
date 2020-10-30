@@ -3,6 +3,11 @@ body {
     padding: 0;
 }
 
+img {
+    width: 100%;
+    border-radius: 12px;
+}
+
 .portfolio-1,
 .portfolio-2 {
     max-width: 1400px;
@@ -45,10 +50,6 @@ body {
 .mail,
 .phone {
     display: flex;
-}
-
-img {
-    border-radius: 12px;
 }
 
 .name {
@@ -132,6 +133,10 @@ h3 {
     background-color: #FFFFFF;
     border-radius: 12px;
     border: 1px solid#FFFFFF;
+}
+
+.recipe-image img {
+    height: 200px;
 }
 
 .recipe-blog-1,
@@ -445,6 +450,13 @@ a {
     border: 1px solid#FFFFFF;
 }
 
+.experiences-2 img,
+.experiences img,
+.experiences-1 img {
+    height: 80px;
+    width: 100%;
+}
+
 .company-experiences {
     padding-top: 80px;
 }
@@ -483,6 +495,12 @@ a {
 .cooking,
 .biking {
     padding-left: 50px;
+}
+
+.gaming img,
+.cooking img,
+.biking img {
+    height: 205px;
 }
 
 .hobby,
