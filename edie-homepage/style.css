@@ -150,18 +150,22 @@ img {
     font-weight: 500;
     color: #f2f2f2;
 }
+
 .details {
     margin-bottom: 150px;
 }
+
 .create img {
     width: auto;
     background: #2D9CDB;
     border-radius: 16px;
     padding: 10px 10px 10px 10px;
 }
+
 .wrap-design {
     margin-bottom: 150px;
 }
+
 .design h1 {
     font-family: 'poppins';
     font-size: 24px;
@@ -298,9 +302,11 @@ img {
 .juice {
     padding-left: 35px;
 }
+
 .wrap-products {
     margin-bottom: 150px;
 }
+
 .smart,
 .booking {
     padding-top: 180px;
@@ -465,6 +471,7 @@ svg {
 .linkin {
     padding: 0 10px;
 }
+
 .wrap-designer {
     margin-bottom: 150px;
 }
@@ -493,10 +500,6 @@ svg {
 
 .web-share {
     width: 40%;
-}
-
-.logo {
-    width: 45%;
 }
 
 .web-share .logo a {
@@ -593,6 +596,7 @@ svg {
     list-style: none;
     padding-bottom: 40px;
 }
+
 .sidebar__top li:last-child {
     padding-bottom: 0;
 }
@@ -714,7 +718,11 @@ ul.nav__links {
     .wrap-container {
         display: none;
     }
-    .details,.wrap-products, .wrap-designer,.wrap-design {
+
+    .details,
+    .wrap-products,
+    .wrap-designer,
+    .wrap-design {
         margin-bottom: 100px;
     }
 
@@ -830,9 +838,11 @@ ul.nav__links {
     .footer {
         padding: 50px 50px 50px 50px;
     }
+
     .email input {
         width: 75%;
     }
+
     .email a {
         left: 157px;
     }
@@ -842,7 +852,11 @@ ul.nav__links {
     .web-service {
         padding: 20px 15px;
     }
-    .details,.wrap-products, .wrap-designer,.wrap-design{
+
+    .details,
+    .wrap-products,
+    .wrap-designer,
+    .wrap-design {
         margin-bottom: 70px;
     }
 
